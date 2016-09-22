@@ -57,6 +57,13 @@ function init()
   useOnTarget = hotkeysWindow:getChildById('useOnTarget')
   useWith = hotkeysWindow:getChildById('useWith')
 
+  currentItemPreview:setVisible(false)
+  selectObjectButton:setVisible(false)
+  clearObjectButton:setVisible(false)
+  useOnSelf:setVisible(false)
+  useOnTarget:setVisible(false)
+  useWith:setVisible(false)
+
   useRadioGroup = UIRadioGroup.create()
   useRadioGroup:addWidget(useOnSelf)
   useRadioGroup:addWidget(useOnTarget)

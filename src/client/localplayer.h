@@ -86,7 +86,7 @@ public:
     double getRegenerationTime() { return m_regenerationTime; }
     double getOfflineTrainingTime() { return m_offlineTrainingTime; }
     std::vector<int> getSpells() { return m_spells; }
-    ItemPtr getInventoryItem(Otc::InventorySlot inventory) { return m_inventoryItems[inventory]; }
+    ItemPtr getInventoryItem(Otc::InventorySlot inventory) { return nullptr; }
     int getBlessings() { return m_blessings; }
 
     bool hasSight(const Position& pos);

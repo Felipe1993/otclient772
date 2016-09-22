@@ -884,15 +884,6 @@ void Game::useInventoryItemWith(int itemId, const ThingPtr& toThing)
 
 ItemPtr Game::findItemInContainers(uint itemId, int subType)
 {
-    for(auto& it : m_containers) {
-        const ContainerPtr& container = it.second;
-
-        if(container) {
-            ItemPtr item = container->findItemById(itemId, subType);
-            if(item != nullptr)
-                return item;
-        }
-    }
     return nullptr;
 }
 
