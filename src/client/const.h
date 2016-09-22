@@ -328,16 +328,16 @@ namespace Otc
         MessageBeyondLast              = 42,
 
         // deprecated
-        MessageMonsterYell             = 43,
-        MessageMonsterSay              = 44,
-        MessageRed                     = 45,
-        MessageBlue                    = 46,
-        MessageRVRChannel              = 47,
-        MessageRVRAnswer               = 48,
-        MessageRVRContinue             = 49,
-        MessageGameHighlight           = 50,
-        MessageNpcFromStartBlock       = 51,
-        LastMessage                    = 52,
+        MessageMonsterYell             = 42,
+        MessageMonsterSay              = 43,
+        MessageRed                     = 44,
+        MessageBlue                    = 45,
+        MessageRVRChannel              = 46,
+        MessageRVRAnswer               = 47,
+        MessageRVRContinue             = 48,
+        MessageGameHighlight           = 49,
+        MessageNpcFromStartBlock       = 50,
+        LastMessage                    = 51,
         MessageInvalid                 = 255
     };
 
