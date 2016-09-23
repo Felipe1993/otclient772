@@ -1,7 +1,7 @@
 Module
   name: addon_server
   description: Single server and protocol
-  author: Fabricio Damazio
+  author: Tibia Legacy Server Team
   
 
   autoload: true
